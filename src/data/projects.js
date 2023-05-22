@@ -12,7 +12,7 @@ const data = [
         image: '/images/projects/scramboard.jpg',
         date: '2022-03-01',
         desc:
-        "Inspired by the Reddit Place project, Scramboard provides a collective pixel-board that can be edited in real-time by users logged into the site. Users can edit individual pixels and collectively create pixel art images. I used React, Node, JavaScript, and Python."
+        "Inspired by the Reddit Place project, Scramboard provides a collective pixel-board that can be edited in real-time by users logged into the site. Users can edit individual pixels and collectively create pixel art images. I used React, Node, JavaScript, and Python. Source code: https://github.com/nimadastmalchi/Scramboard-app"
     },
 ];
 
