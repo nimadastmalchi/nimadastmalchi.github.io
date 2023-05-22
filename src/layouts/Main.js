@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import SideBar from '../components/Template/SideBar';
+import Navigation from '../components/Template/Navigation';
 
 const Main = (props) => (
   <HelmetProvider>
@@ -12,7 +13,7 @@ const Main = (props) => (
       <meta name="description" content={props.description} />
     </Helmet>
     <div id="wrapper">
-      {/* TODO add navigation */}
+      <Navigation/>
       <div id="main">
         {props.children}
       </div>
