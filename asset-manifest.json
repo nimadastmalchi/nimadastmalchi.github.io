@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nimadastmalchi.github.io/static/css/main.3bef6e43.css",
+    "main.js": "/nimadastmalchi.github.io/static/js/main.335485f7.js",
+    "static/js/923.74262b86.chunk.js": "/nimadastmalchi.github.io/static/js/923.74262b86.chunk.js",
+    "static/js/922.f0fd1707.chunk.js": "/nimadastmalchi.github.io/static/js/922.f0fd1707.chunk.js",
+    "static/js/209.5870c225.chunk.js": "/nimadastmalchi.github.io/static/js/209.5870c225.chunk.js",
+    "static/js/787.5809834d.chunk.js": "/nimadastmalchi.github.io/static/js/787.5809834d.chunk.js",
+    "static/js/625.6306ee06.chunk.js": "/nimadastmalchi.github.io/static/js/625.6306ee06.chunk.js",
+    "index.html": "/nimadastmalchi.github.io/index.html",
+    "static/media/about.md": "/nimadastmalchi.github.io/static/media/about.3e5d0b8a0799eb12e56c.md",
+    "main.3bef6e43.css.map": "/nimadastmalchi.github.io/static/css/main.3bef6e43.css.map",
+    "main.335485f7.js.map": "/nimadastmalchi.github.io/static/js/main.335485f7.js.map",
+    "923.74262b86.chunk.js.map": "/nimadastmalchi.github.io/static/js/923.74262b86.chunk.js.map",
+    "922.f0fd1707.chunk.js.map": "/nimadastmalchi.github.io/static/js/922.f0fd1707.chunk.js.map",
+    "209.5870c225.chunk.js.map": "/nimadastmalchi.github.io/static/js/209.5870c225.chunk.js.map",
+    "787.5809834d.chunk.js.map": "/nimadastmalchi.github.io/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bef6e43.css",
+    "static/js/main.335485f7.js"
+  ]
+}
