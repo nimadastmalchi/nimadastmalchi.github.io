@@ -50,6 +50,19 @@ const Projects = () => (
             <p>{"Used React, Node, Express, Python."}</p>
           </div>
         </article>
+        <article className="mini-post">
+          <header>
+            <h3><a href={"https://github.com/nimadastmalchi/8-ball-pool"}>{"3D 8 Ball Pool"}</a></h3>
+            <time className="published">{dayjs("2022-03-01").format('MMMM, YYYY')}</time>
+          </header>
+          <a href={"https://github.com/nimadastmalchi/8-ball-pool"} className="image">
+            <img src={`${process.env.PUBLIC_URL}${"/images/projects/pool.gif"}`} alt={"8 Ball Pool"} />
+          </a>
+          <div className="description">
+            <p>{"Developed an interactive simulation for a pool game that incorporates kinematic equations and collision detection to enable realistic physical motions of the pool balls on the table, while also introducing matrix transformations to support various view angles in 3D space."}</p>
+            <p>{"Used JavaScript and concepts from computer graphics: ray tracing, shadow rendering, 3D modeling, texture mapping, etc."}</p>
+          </div>
+        </article>
       </div>
     </article>
   </Main>
