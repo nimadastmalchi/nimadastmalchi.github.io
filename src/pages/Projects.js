@@ -63,6 +63,19 @@ const Projects = () => (
             <p>{"Used JavaScript and concepts from computer graphics: ray tracing, shadow rendering, 3D modeling, texture mapping, etc."}</p>
           </div>
         </article>
+        <article className="mini-post">
+          <header>
+            <h3><a href={"https://xgithub.com/nimadastmalchi/particle-collision-simulator"}>{"Particle Collisions Simulator"}</a></h3>
+            <time className="published">{dayjs("2022-05-01").format('MMMM, YYYY')}</time>
+          </header>
+          <a href={"https://github.com/nimadastmalchi/particle-collision-simulator"} className="image">
+            <img src={`${process.env.PUBLIC_URL}${"/images/projects/collisions.gif"}`} alt={"Collisions"} />
+          </a>
+          <div className="description">
+            <p>{"Using concepts from physics such as kinematics, gravity, and elastic collisions, particles can be generated and their interaction is simulated."}</p>
+            <p>{"Developed a small physics engine in Python."}</p>
+          </div>
+        </article>
       </div>
     </article>
   </Main>
