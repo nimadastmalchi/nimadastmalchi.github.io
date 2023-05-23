@@ -53,7 +53,7 @@ const Projects = () => (
         <article className="mini-post">
           <header>
             <h3><a href={"https://github.com/nimadastmalchi/8-ball-pool"}>{"3D 8 Ball Pool"}</a></h3>
-            <time className="published">{dayjs("2022-03-01").format('MMMM, YYYY')}</time>
+            <time className="published">{dayjs("2022-05-01").format('MMMM, YYYY')}</time>
           </header>
           <a href={"https://github.com/nimadastmalchi/8-ball-pool"} className="image">
             <img src={`${process.env.PUBLIC_URL}${"/images/projects/pool.gif"}`} alt={"8 Ball Pool"} />
