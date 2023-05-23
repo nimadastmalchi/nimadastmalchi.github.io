@@ -65,7 +65,7 @@ const Projects = () => (
         </article>
         <article className="mini-post">
           <header>
-            <h3><a href={"https://xgithub.com/nimadastmalchi/particle-collision-simulator"}>{"Particle Collisions Simulator"}</a></h3>
+            <h3><a href={"https://github.com/nimadastmalchi/particle-collision-simulator"}>{"Particle Collisions Simulator"}</a></h3>
             <time className="published">{dayjs("2022-05-01").format('MMMM, YYYY')}</time>
           </header>
           <a href={"https://github.com/nimadastmalchi/particle-collision-simulator"} className="image">
