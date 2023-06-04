@@ -4,6 +4,7 @@ import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
 import Projects from './pages/Projects';
 import CourseList from './pages/CourseList';
+import Work from './pages/Work';
 
 const { PUBLIC_URL } = process.env;
 
@@ -16,6 +17,7 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/work" element={<Work />} />
         <Route path="/courses" element={<CourseList />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
