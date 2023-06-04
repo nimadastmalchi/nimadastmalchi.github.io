@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
 import Projects from './pages/Projects';
+import CourseList from './pages/CourseList';
 
 const { PUBLIC_URL } = process.env;
 
@@ -15,6 +16,7 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/courses" element={<CourseList />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>
