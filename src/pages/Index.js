@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 
 import Main from '../layouts/Main';
@@ -16,10 +15,6 @@ const Index = () => {
       });
   });
 
-  const count = markdown.split(/\s+/)
-    .map((s) => s.replace(/\W/g, ''))
-    .filter((s) => s.length).length;
-
   return (
     <Main
       title="About"
@@ -28,8 +23,7 @@ const Index = () => {
       <article className="post markdown" id="about">
         <header>
           <div className="title">
-            <h2><Link to="/">About Me</Link></h2>
-            <p>(in about {count} words)</p>
+            <h2>Hello! 👋</h2>
           </div>
         </header>
         <Markdown>
