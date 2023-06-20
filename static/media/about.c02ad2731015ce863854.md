@@ -1,5 +1,5 @@
 # A bit about me
-I'm currently an undergrad at UCLA studying computer science, graduating in June 2023. I'm particularly interested in the intersection between computer science, math, and physics. I like working with multidisciplinary fields to solve real-world problems. In my projects, I often used concepts from physics and math to create cool programs that solve some issue. I'm also interested in web development (mostly backend and databases, but I've done some frontend too).
+I graduated Summa Cum Laude from UCLA with a B.S. in Computer Science in June 2023. I'm particularly interested in the intersection between computer science, math, and physics. I like working with multidisciplinary fields to solve real-world problems. In my projects, I often used concepts from physics and math to create cool programs that solve some issue. I'm also interested in web development (mostly backend and databases, but I've done some frontend too).
 
 <br/>
 
