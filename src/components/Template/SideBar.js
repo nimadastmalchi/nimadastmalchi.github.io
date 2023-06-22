@@ -18,7 +18,7 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Nima. I am a fourth-year computer science major at <a href="https://cs.ucla.edu/">UCLA</a>, graduating summa cum laude in June 2023. Previously, I was a software engineering intern at Amazon, where I developed a multithreading library in C++ for app developers on Amazon devices. I was also an Information Technology intern at <a href="https://dot.ca.gov">Caltrans</a>.
+      <p>Hi, I&apos;m Nima. I recently graduated from <a href="https://cs.ucla.edu/">UCLA</a> with a B.S. in computer science in June 2023. Previously, I was a software engineering intern at Amazon, where I developed a multithreading library in modern C++ for app developers on Amazon devices. I was also an Information Technology intern at <a href="https://dot.ca.gov">Caltrans</a>.
       </p>
       <ContactIcons/>
     </section>
