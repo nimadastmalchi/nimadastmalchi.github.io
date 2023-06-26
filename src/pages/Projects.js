@@ -76,6 +76,21 @@ const Projects = () => (
             <p>{"Developed a small physics engine in Python."}</p>
           </div>
         </article>
+        <article className="mini-post">
+          <header>
+            <h3><a href={"https://github.com/nimadastmalchi/simple-router-firmware"}>{"IP Router Firmware"}</a></h3>
+            <time className="published">{dayjs("2023-01-01").format('MMMM, YYYY')}</time>
+          </header>
+          <a href={"https://github.com/nimadastmalchi/simple-router-firmware"} className="image">
+            <img src={`${process.env.PUBLIC_URL}${"/images/projects/router.png"}`} alt={"Router"} />
+          </a>
+          <div className="description">
+            <p>{"In this project, I implemented an IP router in C++, which handles forwarding packets from clients to servers, and vice versa."}</p>
+            <p>{"Specifically, the router firmware implemented forwarding IP packets, handling ARP protocol (ARP request sending and response receiving), and parsing/generating Ethernet frames and IP packets."}</p>
+            <p>{"Using Mininet, I tested the router's functionality by simulating various network traffic and topologies."}</p>
+            <p>{"See more here: https://github.com/nimadastmalchi/simple-router-firmware"}</p>
+          </div>
+        </article>
       </div>
     </article>
   </Main>
