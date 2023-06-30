@@ -65,6 +65,18 @@ const Projects = () => (
         </article>
         <article className="mini-post">
           <header>
+            <h3>{"Multiplanetary System Simulation"}</h3>
+            <time className="published">{dayjs("2022-05-01").format('MMMM, YYYY')}</time>
+          </header>
+          <div className="image">
+            <img src={`${process.env.PUBLIC_URL}${"/images/projects/solar-system.gif"}`} alt={"Multiplanetary System Simulation"} />
+          </div>
+          <div className="description">
+            <p>{"In this project, I created a 3D solar system visualization using WebGL. I implemented various features like a sun with changing size and color, orbiting planets and moons with different properties, custom shaders for planet rings, and camera controls."}</p>
+          </div>
+        </article>
+        <article className="mini-post">
+          <header>
             <h3><a href={"https://github.com/nimadastmalchi/particle-collision-simulator"}>{"Particle Collisions Simulator"}</a></h3>
             <time className="published">{dayjs("2022-05-01").format('MMMM, YYYY')}</time>
           </header>
@@ -72,8 +84,7 @@ const Projects = () => (
             <img src={`${process.env.PUBLIC_URL}${"/images/projects/collisions.gif"}`} alt={"Collisions"} />
           </a>
           <div className="description">
-            <p>{"Using concepts from physics such as kinematics, gravity, and elastic collisions, particles can be generated and their interaction is simulated."}</p>
-            <p>{"Developed a small physics engine in Python."}</p>
+            <p>{"A simple Python (using PyGame) simulation of particle collisions using concepts from physics such as kinematics, gravity, and elastic collisions."}</p>
           </div>
         </article>
         <article className="mini-post">
